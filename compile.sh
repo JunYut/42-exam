@@ -1,1 +1,1 @@
-gcc -Wall -Werror -Wextra -Wpedantic *.c
+gcc -Wall -Werror -Wextra -Wpedantic -fsanitize=address *.c
